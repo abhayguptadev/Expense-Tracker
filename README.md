@@ -1,16 +1,41 @@
-# cahs_flow
+💰 Expense Tracker App
 
-A new Flutter project.
+A simple and clean Expense Tracker application built using Flutter and Provider for state management.
 
-## Getting Started
+This app helps users record and manage their daily transactions in an easy and organized way.
 
-This project is a starting point for a Flutter application.
+📱 Download APK
 
-A few resources to get you started if this is your first Flutter project:
+👉 Download Here:
+(Paste your Release APK link here)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+After downloading:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Open the APK file
+
+Allow installation from unknown sources (if asked)
+
+Install and start tracking your expenses
+
+✨ Features
+
+• Add new transactions
+• View transaction list
+• Real-time UI updates using Provider
+• Clean and structured interface
+• Lightweight and smooth performance
+
+🛠 Tech Stack
+
+• Flutter (Dart)
+• Provider (State Management)
+• Clean Widget Structure
+
+🎯 Purpose of This Project
+
+This project was built to strengthen my understanding of Flutter architecture, state management using Provider, and building practical real-world applications.
+
+👨‍💻 Developer
+
+Abhay Gupta
+Building Better Code, One Line at a Time.
