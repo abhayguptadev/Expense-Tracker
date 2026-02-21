@@ -8,7 +8,7 @@ This app helps users record and manage their daily transactions in an easy and o
 
 👉 Download Here:
 
-[Cash Flow](https://github.com/abhayguptadev/Expense-Tracker/releases/download/v.1.0/app-release.apk)
+[Cash Flow](https://github.com/abhayguptadev/Expense-Tracker/releases/download/v.1.0/Cash.Flow.apk)
 
 ### ✨ Features
 
