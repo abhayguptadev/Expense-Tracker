@@ -11,7 +11,7 @@ class HomeBody extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Cash Flow"), elevation: 0, centerTitle: true),
       body: Column(
-        mainAxisAlignment: .center,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CardSummary(),
           const SizedBox(height: 20),

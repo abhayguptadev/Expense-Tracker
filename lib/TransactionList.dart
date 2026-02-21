@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'provider.dart';
@@ -27,7 +27,7 @@ class Transactionlist extends StatelessWidget {
             title: Text(transaction.title),
             subtitle: Text(transaction.date.toString()),
             trailing: Text(
-              '\Rs${transaction.amount.toStringAsFixed(2)}',
+              'Rs ${transaction.amount.toStringAsFixed(2)}',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: transaction.isCredit ? Colors.green : Colors.red,

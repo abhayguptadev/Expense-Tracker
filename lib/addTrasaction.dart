@@ -41,7 +41,7 @@ class _AddTransactionState extends State<AddTransaction> {
     return Padding(
       padding: EdgeInsets.all(15),
       child: Column(
-        mainAxisAlignment: .center,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           TextField(
             controller: titlecontroller,
@@ -60,12 +60,12 @@ class _AddTransactionState extends State<AddTransaction> {
             ),
           ),
           Row(
-            mainAxisAlignment: .center,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 "Debit",
                 style: TextStyle(
-                  fontWeight: .bold,
+                  fontWeight: FontWeight.bold,
                   color: isCredit == false ? Colors.red : Colors.black,
                 ),
               ),
@@ -85,7 +85,7 @@ class _AddTransactionState extends State<AddTransaction> {
               Text(
                 "Credit",
                 style: TextStyle(
-                  fontWeight: .bold,
+                  fontWeight: FontWeight.bold,
                   color: isCredit == true ? Colors.green : Colors.black,
                 ),
               ),
@@ -93,7 +93,7 @@ class _AddTransactionState extends State<AddTransaction> {
           ),
           SizedBox(height: 25),
           Row(
-            mainAxisAlignment: .spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ElevatedButton(
                 onPressed: () {
